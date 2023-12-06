@@ -1,0 +1,27 @@
+body {
+  background-color: #221f1f;
+  font-family: sans-serif;
+}
+
+.container-search-input {
+  background-color: #221f1f;
+  border: white 1px solid;
+  outline: none;
+}
+
+.container-search-button {
+  background-color: #e50914;
+  outline: none;
+}
+
+.data-info {
+  background-color: rgb(65, 65, 65);
+  color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.button-go {
+  background-color: #e50914;
+  outline: none;
+}

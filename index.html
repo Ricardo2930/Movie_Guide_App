@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Guide App</title>
+    <link rel="stylesheet" href="./stylus.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="grid place-content-center h-screen text-white">
+    <main class="container p-5 grid gap-2">
+      <h1 class="container-title text-center font-bold text-3xl">
+        Movie Guide
+      </h1>
+      <section class="container-search w-full flex justify-center gap-2">
+        <input
+          class="container-search-input w-auto text-center p-2 rounded focus:text-white"
+          type="text"
+          placeholder="Escribe la película"
+        />
+        <button class="container-search-button p-2 rounded">Buscar</button>
+      </section>
+
+      <section class="movie-box grid text-white w-80"></section>
+    </main>
+  </body>
+  <script src="./app.js"></script>
+</html>
